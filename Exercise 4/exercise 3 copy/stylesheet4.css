@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html * {
+	box-sizing: border-box;}
+	
+body {
+	background-color: #F23B0C;
+	font-family: 'Halant', serif;
+	font-weight: 400;}
+p {
+	text-align: left;
+	font-size: .7rem;}
+
+.image {
+	text-align: center;}
+	
+#page {
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 10px auto; 
+	padding: 25px;
+	background-color: #ffffff;
+	border-radius: 20px;}
+	
+h1 {
+	text-align: center;
+	color: #153AD6;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 36px;}
+.submit {
+	text-align: center;}

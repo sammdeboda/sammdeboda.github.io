@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html * {
+	box-sizing: border-box;}
+
+body {
+	background-color: #F23B0C;
+	font-family: helvetica, sans-serif;
+	font-size: 10px;}
+h1 { 
+	color: #153AD6;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 3em;}
+h2 {
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	font-size: 2em;}
+	
+#page {
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 10px auto; 
+	padding: 25px;
+	background-color: #ffffff;
+	border-radius: 20px;}
+	
+select {
+	font-family:helvetica, sans-serif;}
+	
+fieldset {
+	width: 47rem; 
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: left;}
+	
+legend {
+	background-color: #B6C3F7;
+	border: 1px solid #B6C3F7;
+	border-radius: 10px;
+	padding: 10px 20px; 
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Righteous', cursive;
+	font-size: 1.5em; 
+	color: #FFFFFF}
+
+.submit { 
+	text-align: center;}
+	

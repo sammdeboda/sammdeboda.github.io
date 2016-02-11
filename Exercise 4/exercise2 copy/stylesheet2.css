@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html * {
+	box-sizing: border-box;}
+	
+body {
+	background-color: #F23B0C;
+	text-align:center;}
+	
+#page {
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 10px auto; 
+	padding: 25px;
+	background-color: #ffffff;
+	border-radius: 20px;}
+	
+h1 {
+	text-align: center;
+	color: #153AD6;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;}
+	
+a:link {
+	color: #9C9C9C;
+	font-family: 'Righteous', cursive;
+	text-decoration: none;
+	font-weight: 400;}
+	
+a:visited {
+	color: #153AD6;}
+a:hover { 
+	color:#F23B0C;
+	text-decoration: none;} 
+	
+h2, h3, h4 {
+	color: #9C9C9C;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;}
+	
+	
+#pages {
+	font-family: 'Halant', serif;
+	font-size: 1rem;}
+	
+p {
+	font-family: 'Halant', serif;}
+	
+figcaption {
+	font-family: 'Halant', serif;
+	font-size: .7rem}
+	
+strong {
+	font-family: helvetica;
+	color: #153AD6;}
+ul {
+	text-align: center;
+	padding: 15px;
+	border-bottom: 4px solid #000000;}
+	
+li {
+	font-family: 'Halant', serif;
+	display: inline;
+	margin: 0 4px;}
+
+table {
+	width: 600px;
+	font-family: 'Halant', serif;
+	text-align: center;
+	border-collapse: collapse;}
+	
+tr.even {
+	background-color: #AEBCF7;}
+th, td {
+		padding: 7px;
+		border: 1px solid #000000;}
+
+th {
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	font-size: 2px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	text-align: center;}

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html * {
+	box-sizing: border-box;}
+	
+body {
+	background-color: #F23B0C;
+	margin: 0 auto;
+	font-family: 'Halant', serif;}
+	
+	
+.bottom-row {
+	overflow: auto;
+	max-width: 970px;
+	min-width: 720px;
+	height:auto;
+	margin: 0px auto 10px auto; 
+	padding: 0;
+	background-color: #ffffff;}
+	
+.header, h1 {
+	background: #FFE161;
+	padding: 1px;
+	font-size:2em;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;}
+
+ul {
+	max-width: 970px;
+	min-width: 720px;
+	margin: 10px auto 10px auto; 
+	padding: 25px;
+	background-color: #ffffff;
+	text-align: center;}
+	
+
+.nerd {
+	text-align:left;}
+	
+a:link {
+	color: #9C9C9C;
+	font-family: 'Righteous', cursive;
+	text-decoration: none;
+	font-weight: 400;}
+	
+a:visited {
+	color: #153AD6;}
+a:hover { 
+	color:#F23B0C;
+	text-decoration: none;} 
+
+.groupic {
+	background-color: #ffffff;
+	width:970px;
+	height: 600px;
+	margin: 10px auto;
+	padding: 25px;}
+	
+h2, h3, h4 {
+	color: #A8B5F6;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	text-align:left;}
+	
+.nerdleft {
+	text-align:left;
+	font-size:2.5em;}
+	
+	
+#pages {
+	font-family: 'Halant', serif;
+	font-size: 1rem;}
+	
+figcaption, #text {
+	font-family: 'Halant', serif;
+	font-size: .8rem}
+
+	
+strong {
+	font-family: helvetica;
+	color: #153AD6;}
+
+li {
+	font-family: 'Halant', serif;
+	display: inline;
+	margin: 4px;}
+.bio {
+	background-color: #ffffff;
+	width:350px;
+	float:right; 
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #999999;
+	border-radius:15px;}
+	
+.column1, .column2, .column3 {
+	background-color: #ffffff;
+	width:285px;
+	float:left; 
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #999999;
+	border-radius:15px;}
+
+.article-intro {
+	margin-top: 15px; 
+	padding-top: 15px;}
+.article-intro-img {
+	float: left; 
+	width: 90px;}
+.article-intro h4 {
+	font-size: 1em;
+	margin: 0;}
+.article intro p {
+	margin-top: .5em; 
+	margin-bottom: 0;}
+.article-intro img {
+	float: left;}
+
+footer {
+	clear: both;}

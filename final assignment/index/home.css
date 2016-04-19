@@ -20,7 +20,7 @@ header {
 	width: 100%;
 	margin: 30px auto 0;
 	border-bottom: 40px solid #f24c36;
-	/*border-image: url('http://cl.ly/3c2J3c0l3r0P/dots.svg') 33% round;*/
+	/*border-image: url('images/dot.png') 33% round;*/
 }
 	
 ul {
@@ -41,8 +41,8 @@ li a {
 a:link {
 	color: #000000;
 	text-decoration: none; 
-	font-family: 'Cabin', Gill Sans, sans-serif;
-	font-weight: 600	;
+	font-family: 'Raleway', Gill Sans, sans-serif;
+	font-weight: 700	;
 }
 
 a:visited { 
@@ -79,7 +79,8 @@ a:hover {
 
 .home-image {
 	text-align: center;
-	margin-top: 30; 
+	margin-top: 30;
+	width: 100%; 
 }
 
 .bottomrow {
@@ -89,6 +90,38 @@ a:hover {
 	padding-bottom: 40px;
 }
 
+h2 { 
+	font-family: "Arvo", serif;
+	font-weight: 400;
+	font-size: 3rem;
+	color: #ffffff;
+	text-shadow: 3px 3px 6px rgba(0,0,0,.5);
+	margin-top: 10px;
+	margin-bottom: -20px;
+}
+
+h3 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+	color: #e6f77f;
+	text-shadow: 3px 3px 6px rgba(0,0,0,.5);
+}
+
+.borderleft {
+	width: 50px;
+	border-left: 2px solid #000000;
+	}
+
+
+.article-content { 
+	font-family: "Raleway", sans-serif;
+	font-weight: 100;
+	color: #ffffff;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	
+}
 
 .press {
 	margin: 5px auto 0;
@@ -96,6 +129,7 @@ a:hover {
 
 .article-background { 
 	background-color: rgba(255,255,255,.3);
+	padding-bottom: 30px;
 }
 
 .article-item {
@@ -108,9 +142,27 @@ a:hover {
 	max-width: 100%;
 }
 
+.pressimg {
+	box-shadow: 0 0 20px 5px rgba(0,0,0,.3);
+}
+
+.read {
+	background-color: #f24c36;
+	border: 1px solid #FFFBFC;
+	border-radius: 40px;
+	padding: 5px 15px;
+	text-align: center;
+	font-family: "arvo", sans-serif;
+	color: #FFFFFF;
+	float: right; 
+}
+
 .socialmedia {
 	float: right;
 	margin: 5px; 
 }
 
-
+.button {
+	font-family: "arvo", sans-serif;
+	color: #FFFFFF;		
+}

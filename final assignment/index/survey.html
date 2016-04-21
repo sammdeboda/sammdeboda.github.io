@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Survey|House of Pies LA</title>
+
+	<link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+ 	<link rel="stylesheet" href="survey.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100italic,400,600italic,600,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400" rel="stylesheet" type="text/css">
+    
+</head>
+
+ 
+<body>
+
+    <div class="wrapper">
+      <header>
+      	  <div class="container">
+            <a href="home.html"><img src="images/HoP_noBG.png" class="logo" alt="HoP_logo" /></a>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="locations.html">LOCATIONS</a></li>
+                        <li><a href="survey.html">SURVEY</a></li>
+                    </ul>
+                </nav> 
+            </div>
+          </div>
+        </header> 
+    </div>    
+     
+   
+     <div class="toprow">
+     <img src="images/survey_headline.png" class="banner-image" alt="Free Pie Banner" />
+     </div>
+     
+     <div class="bottomrow">
+      <div class="article-background">
+        <div class="container clearfix">
+        
+                    <form action="coupon.html">
+                    <div class="form-field clearfix">
+	                    <label for="first-name" class="label-field">First Name:</label>
+                        <input type="text" name="name" id="first-name" size="45" max-length="20" value="" required="required" class="main"/>
+                    </div>
+                    <div class="form-field clearfix">
+                        <label for="last-name"  class="label-field">Last Name:</label>
+                        <input type="text" name="lastname" id="last-name" size="45" max-length="20" value="" required="required" class="main"/>
+                    </div>
+                    <div class="form-field clearfix">                     
+                        <label for="dov"  class="label-field">Date of Visit:</label>
+                        <input type="date" name="dov" id="dov" required="required" class="main" />
+                    </div>
+                      
+        		    <div class="form-field clearfix">
+                          <label for="hear-about-us" class="label-field">How did you hear about us?</label>
+                          <select class="dropdown" id="hear-about-us" required="required">
+                     <option value="">Please select one</option>
+                                <option value="friend">Friend</option>
+                                <option value="yelp">Yelp</option>
+                                <option value="radio">Radio</option>
+                                <option value="family">I've been going here all along!</option>
+                                <option value="Other">Other</option>
+                           </select>
+                     </div>
+                     <br /> 
+                     <br />
+                     
+                     <table>
+                     	<tr class="top-background">
+                        	<th></th>
+                            <th class="rate">Very Good</th>
+                            <th class="rate">Good</th>
+                            <th class="rate">Fair</th>
+                            <th class="rate">Poor</th>
+                            <th class="rate">Very Poor</th>
+                        </tr>
+                        
+                        <tr>
+                        <th>Food*</th>
+                        <td class="select"><input type="radio" required="required" name="foodrating" value="" /></td>
+                        <td class="select"><input type="radio" name="foodrating" value="" /></td>
+                        <td class="select"><input type="radio" name="foodrating" value="" /></td>
+                        <td class="select"><input type="radio" name="foodrating" value="" /></td>
+                        <td class="select"><input type="radio" name="foodrating" value="" /></td>
+                        </tr>
+                        <tr>
+                        <th>Service*</th>
+                        <td class="select"><input type="radio" required="required" name="servicerating" value="" /></td>
+                        <td class="select"><input type="radio" name="servicerating" value="" /></td>
+                        <td class="select"><input type="radio" name="servicerating" value="" /></td>
+                        <td class="select"><input type="radio" name="servicerating" value="" /></td>
+                        <td class="select"><input type="radio" name="servicerating" value="" /></td>
+                        </tr>
+                        <tr>
+                        <th>Dining Experience*</th>
+                        <td class="select"><input type="radio" required="required" name="dinerating" value="" /></td>
+                        <td class="select"><input type="radio" name="dinerating" value="" /></td>
+                        <td class="select"><input type="radio" name="dinerating" value="" /></td>
+                        <td class="select"><input type="radio" name="dinerating" value="" /></td>
+                        <td class="select"><input type="radio" name="dinerating" value="" /></td>
+                        </tr>
+                        <tr>
+                        <th>Pricing*</th>
+                        <td class="select"><input type="radio" required="required" name="pricerating" value="" /></td>
+                        <td class="select"><input type="radio" name="pricerating" value="" /></td>
+                        <td class="select"><input type="radio" name="pricerating" value="" /></td>
+                        <td class="select"><input type="radio" name="pricerating" value="" /></td>
+                        <td class="select"><input type="radio" name="pricerating" value="" /></td>
+                        </tr>
+                     </table>
+                     
+                     <label for="hear-about-us" class="label-field2">We appreciate your comments!</label>
+                <textarea name="comments" cols="50" rows="10" placeholder="" class="comments"></textarea>
+                   
+                   <br />
+                   <br />
+                 <button class="submit"><em>Submit</em> <img src="images/button arrow.png" alt="arrow" /></button>
+                    </form>
+     	</div>
+      </div>
+     </div>
+
+
+    
+     
+        <footer class="clearfix">
+        <div class="footer-box">
+                  <a href="https://www.facebook.com/House-of-Pies-195530533828394/info/?tab=overview">
+                    <img src="images/fb_circle-1.png" width="25" height="25" alt="facebook link" class="socialmedia" />
+                  </a>
+                  <a href="http://www.yelp.com/biz/house-of-pies-los-angeles">
+                    <img src="images/yelp_white copy.png" width="25" height="25" alt="yelp link" class="socialmedia" />
+                  </a>
+         </div>
+        </footer>
+      
+        
+        
+</body>
+</html>

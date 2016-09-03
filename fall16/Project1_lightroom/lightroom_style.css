@@ -1,3 +1,284 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html * {
+	box-sizing: border-box;
+}
+
+body { 
+	background: -moz-radial-gradient(center, ellipse cover, rgba(112,141,150,0.83) 15%, rgba(83,107,117,0.83) 39%, rgba(8,22,32,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(112,141,150,0.83) 15%,rgba(83,107,117,0.83) 39%,rgba(8,22,32,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(112,141,150,0.83) 15%,rgba(83,107,117,0.83) 39%,rgba(8,22,32,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4708d96', endColorstr='#081620',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+
+.topnavbar { 
+	margin-top: 1.5em;
+	margin-right: 1em; 
+	float: right;
+}
+
+.sidenavbar {
+	margin-left: 4em; 
+	float: left;
+}
+
+.logo {
+	margin-left: 35px;
+	}
+.logotext {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.sideelements {
+	display: block; 
+	color: #FFFFFF;
+	font-family: 'program';
+	font-weight: 400;
+	font-size: 1.3em; 
+	padding: 1em; 
+	line-height: 1.2em;
+}
+
+.sideelements:hover {
+	font-style: italic;
+	font-weight: 500;
+}
+
+.sidenavtransparent {
+	width: 250px;
+    height: 80%;
+    position: fixed;
+    top: 0;
+	padding-top: 2em;
+	padding-bottom: 2em;
+    background-color: rgba(0,0,0,.35);
+}
+
+li { 
+	display: inline; 
+	color: #FFFFFF;
+	font-family: 'program';  
+}
+
+.lanterns { 
+	width: 100%; 
+	position: relative; 
+}
+
+h2 {
+	font-family: 'program';
+	color: #FFFFFF;
+	font-weight: 400; 
+	font-size: 2em;
+}
+
+.emphasis {
+	font-family: 'program';
+	color: #FFFFFF;
+	font-weight: 500; 
+}
+
+p {
+	font-family: 'program';
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 1.5em; 
+}
+.textbox { 
+	width: 400px;
+    height: 20em;
+    position: absolute;
+	border: solid .01px #D9D4D4;
+    top: 20em;
+    left: 100%;
+    margin-left: -520px;
+	padding: 1em 1em 2em;
+    background-color: rgba(0,0,0,.3);
+	max-width: 100%;
+}
+
+.next {
+	font-style: italic; 
+	font-weight: 400;
+}
+
+
+	
+.rules {
+	width: 75%; 
+	margin-top: 2em; 
+	position: relative;
+	float: right;
+	 
+}
+
+.persuade {
+	font-family: "program",sans-serif;
+	font-style: normal; 
+	font-weight: 400; 
+	font-size: 1.5em;
+	width: 15em;
+	margin-left: 12em;
+	position: relative; 
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.bigbuy {
+	font-family: "program",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 3em;	
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+
+.buying {
+	width: 4.7em;
+	border: solid 1px #FFFFFF;
+	font-family: "program",sans-serif;
+	font-weight: 400; 
+	font-style: normal; 
+	font-size: 2em;
+	color: #ffffff;
+	padding: 20px;
+	margin-left: 10em;
+}
+
+.getit {
+	margin-bottom: 0;	
+}
+
+.buyit {
+	width: 5em;
+	border: solid 1px #FFFFFF;
+	font-family: "program",sans-serif;
+	font-weight: 400; 
+	font-style: normal; 
+	font-size: 1.5em;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+}
+
+.buyit:hover{
+	font-style: italic;
+	font-weight: 500;
+} 
+
+.binoculars { 
+	width: 100%;
+	
+}
+
+.textbox2 {
+	width: 400px;
+    height: 28em;
+    position: absolute;
+	border: solid .01px #D9D4D4;
+    left: 100%;
+    margin-left: -520px;
+	padding: 30px;
+	top: 78em;
+    background-color: rgba(0,0,0,.2);
+	
+	}
+	
+.rules2 {
+	width: 75%;
+	position: relative; 
+	margin-top: 2em;
+	margin-bottom: 2em;
+	float: right;
+}
+
+.new {
+	font-family: "program",sans-serif;
+	font-style: italic; 
+	font-weight: 400;
+	font-size: 3em;
+	color: #f2f2f2;
+	margin-left: 6em; 
+	position: relative; 
+	}
+
+.wrap {
+	width: 100%;
+	margin-left: 8em;
+}
+	
+.img {
+	width: 40%;
+	float: left;
+	margin-left: 10em;
+}
+
+.vertrule {
+	height: 13.5em;
+	padding-left: 25px;
+	padding-right: 20px;
+	float: left;
+	}
+	
+	
+.w3 {
+	float: left;
+	position: relative;
+	width: 15em;
+	font-family: "program",sans-serif;
+	font-style: normal; 
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 25px;
+	}
+	
+.rightwrap {
+	width: 100%;
+	height: 20px;
+	margin-left: -10em;
+	position: relative; 
+	top: 2em;
+	}
+	
+.right1 {
+	float:right;
+	width: 30%;
+}
+
+.leftvert {
+	float: right;
+	height: 13.5em;
+	padding-left: 25px;
+	padding-right: 20px;
+	
+	}
+
+.lefttext {
+	float: right;
+	position: relative;
+	width: 13em;
+	font-family: "program",sans-serif;
+	font-style: normal; 
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 25px;
+	text-align: right; 
+	
+	}
+	
+	
+	.wrap2 {
+	width: 100%;
+	margin-left: 8em;
+	margin-top: 30px;
+	float: left;
+}	
+	.img3 {
+		width:30%;
+		margin-top: 5em;
+		float: left;
+		margin-left: 10em;
+		}	
+		

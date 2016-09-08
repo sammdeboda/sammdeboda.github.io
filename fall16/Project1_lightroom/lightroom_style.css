@@ -242,7 +242,7 @@ p {
 
 .subcaptions2 {
 	float: left;
-	width: 15em; 
+	width: 12em; 
 	position: relative; 
 	border-right: solid #ffffff .2em;
 	padding-right: 1em;
@@ -273,7 +273,7 @@ p {
 .formcontainer {
 	float: left;
 	position: relative;
-	margin-left: 30em;
+	margin-left: 20em;
 	margin-bottom: 2em;
 	
 }
@@ -469,4 +469,9 @@ footer {
 	border-right: 1px #ffffff solid;
 	padding-right: 1em;
 	padding-left: 1em;
-}
+	}
+
+#wrapper {
+	width: 1280px;
+	margin: auto;
+	}

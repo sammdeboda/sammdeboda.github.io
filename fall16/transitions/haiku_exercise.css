@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.pond {
+  background-color: #42DAC0;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin-right: 5px;
+  margin-left: 10px;
+  animation: skew 4s infinite;
+  transform: skew(20deg);
+  opacity: .7;
+  float: left;
+}
+
+.frog {
+	width: 200px; 
+	height: 200px; 
+	background-color: #00C563;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 0;
+}
+
+

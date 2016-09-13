@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.container{
+	margin: 100px auto;
+	width: 500px;
+	position: relative; 
+	height: 300px;
+}
+	
+	
 .pond {
   background-color: #42DAC0;
   height: 100px;
@@ -11,11 +19,18 @@
   color: white;
   margin-right: 5px;
   margin-left: 10px;
-  animation: skew 4s infinite;
-  transform: skew(20deg);
   opacity: .7;
-  float: left;
+  margin: auto;
+  display: inline-block;
+  transition: 1s ease-in-out;
+  position: relative;
 }
+
+.pond:hover {
+	transform: skew(20deg) translate(100px);
+	background-color: #45775B;
+	
+	}
 
 .frog {
 	width: 200px; 
@@ -24,6 +39,53 @@
 	border-radius: 100px;
 	text-align: center;
 	line-height: 0;
+	margin: 50px 20px;
 }
 
+.frog:hover {
+	transform-origin: right-bottom; 
+	transform: translate(100%);
+	transition-property: transform;	
+	transition: ease-in-out;
+	
+	}
+
+.face.back {
+	transform: rotateY(180deg);
+	width: 100%;
+}
+	
+.face { 
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	margin: 30px;
+}
+		 
+.card-container {
+	height: 300px;
+	margin: 100px auto; 
+	position: relative; 
+	perspective: 1000; 
+	text-align: center; 
+	transition: 1s ease-in-out;
+	width: 500px; 
+}
+
+.card {
+	width: 100%; 
+	height: 100%; 
+	transform-style: preserve-3d; 
+	transform-origin: 50% 50%; 
+	transition: all 1.0 linear; 	
+}
+
+.card-container:hover .card {
+	transform: rotateY(180deg); 
+}
+
+.card img {
+	width: 100%; 
+}
 

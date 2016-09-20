@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FFD6D7;
+	overflow: hidden;
+	
+	}
+	
+.honey {
+  position: relative;
+  width: 40px; 
+  height: 23.09px;
+  background-color: #FFFB96;
+  margin: 11.55px 0;
+  display: inline-block;
+}
+
+.honey:before,
+.honey:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.honey:before {
+  bottom: 100%;
+  border-bottom: 11.55px solid #FFFB96;
+}
+
+.honey:after {
+  top: 100%;
+  width: 0;
+  border-top: 11.55px solid #FFFB96;
+}
+
+
+.x1 {
+	animation: movehoney 15s linear infinite; 
+	
+	}
+	
+.x2 {
+	left: 200px;
+	transform: scale(0.6);
+	opacity: 0.6; 
+	animation: movehoney 25s linear infinite; 
+	}
+	
+.x3 {
+	left: -250px; 
+	top: -200px;
+	transform: scale(0.8);
+	opacity: 0.8;
+	animation: movehoney 20s linear infinite; 
+}
+
+.x4 {
+	left: -200px; 
+	top: 100px;
+	animation: movehoney 15s linear infinite;
+	}
+	
+.x5 {
+	left: 300px; 
+	top: -200px; 
+	opacity: 0.6; 
+	animation: movehoney 10s linear infinite; 
+	
+	}
+	
+	
+.x6 {
+	left: 250px; 
+	top: -100px; 
+	transform: scale(0.6); 
+	animation: movehoney 10s linear infinite;
+	
+	}
+	
+.x7 {
+	transform: scale(2); 
+	animation: movehoney 10s linear infinite;
+	}
+	
+@keyframes movehoney {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+	
+	}

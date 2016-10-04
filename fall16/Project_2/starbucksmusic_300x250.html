@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Starbucks Music Banner Ad</title>
+        <meta name="ad.size" content="width=300,height=250">
+        <meta name="description" content="">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+        <style>
+            /*
+             * Banner container, do not change
+             */
+            #medium-rectangle {
+                background: #2b2b2b;
+                border: 1px solid #ccc;
+                display: block;
+                height: 250px;
+                margin: 50px auto;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 300px;
+            }
+			
+		
+			.volume {
+				height: 100px; 
+				}
+				
+			.left {
+				animation-name: pulse, pulseLeft; 
+				animation-duration: 1s, 5s;
+				animation-iteration-count: infinite, 1;
+				animation-fill-mode:none, both;
+				position: absolute;
+				right: 80px;
+				top: 5px;
+				}
+				
+			
+			.right {
+				position: absolute;
+				animation-name: pulse, pulseRight;
+				animation-duration: 1s, 5s;
+				animation-iteration-count: infinite, 1;
+				animation-fill-mode: none, both; 
+				animation-timing-function: ease-in;
+				left: 150px;
+				top: 120px;
+				}
+				
+			
+			.volume_clearfix {
+				width: 100%;
+				position: absolute; 
+				animation-name: pulse;
+				animation-iteration-count: infinite;
+				}	
+				
+				
+					
+			 @keyframes pulse {
+				 0% {
+					transform: scale(1.1);
+				 }
+				 50% {
+					 transform: scale(.9);
+				 }
+				 100% {
+					 transform: scale(1);
+				 }
+					 
+			}
+			
+			@keyframes pulseLeft {
+				 0% {
+					left: -300px;
+				 }
+				 20% {
+					 left: -270px;
+					 }
+				 30% {
+					 left: -300px;
+					 }
+				40% {
+					left: -280px;
+					}
+				60% {
+					left: -300px;
+					}
+				70% {
+					left: -275px;
+					}
+				 100% {
+					 left: -100px;
+				 }
+					 
+			}
+			
+			@keyframes pulseRight {
+				0% {
+					left: 200px;
+					}
+				100% {
+					left: 150px;
+					}
+				}
+				
+			
+				
+				
+			.text {
+				font-family: "Montserrat", sans-serif;
+				font-size: 24px;
+				color: #FFFFFF;
+				}
+			strong {
+				font-size: 1.2em;
+				}
+			
+			.take {
+				position: absolute;
+				top: 40px;
+				left: 10px;
+				animation-name: move-right; 
+				animation-duration: 10s;  
+				animation-timing-function: ease-in-out;
+				text-shadow: 0px 2px 3px #8C8D8C;
+			}
+			
+			.sound {
+				position: absolute; 
+				top: 70px;
+				left: 10%; 
+				width: 300px;
+				animation-name: move-left; 
+				animation-duration: 20s; 
+				animation-timing-function: ease-in-out;
+				text-shadow: 0px 2px 3px #8C8D8C; 
+				}
+			
+			.you {
+				position: absolute; 
+				top: 100px;
+				left: 10px;
+				animation-name: move-right;
+				animation-duration: 25s; 
+				animation-timing-function: ease-in-out;
+				text-shadow: 0px 2px 3px #8C8D8C;
+				}
+				
+			
+			 @keyframes move-right {
+				0% {
+					left: -500px;
+					}
+				50% {
+					left: 20px;
+					}
+				}	
+				
+			 @keyframes move-left {
+				 0% {
+					 left: 500px;
+					 }
+				 50% {
+					left: 0; 
+					 }
+				 
+				 }
+				 
+				 .banner {
+					width: 100%;
+					height: 100px;
+					background-color: rgba(255,255,255,.6);
+					position: absolute; 
+					top: 150px;
+					padding-left: 10px;
+					padding-bottom: 10px;
+					animation-name: bannerUp; 
+					animation-duration: 15s; 
+					animation-fill-mode: none, both; 
+					animation-timing-function: ease-in;
+					}
+					
+				@keyframes bannerUp {
+					0% {
+						top: 900px; 
+						}
+					100% { 
+						top: 150px; 
+						}
+					}
+					
+				.intro {
+					font-size: .8em;
+					color: #000000;
+					}
+					
+				.sync {
+					font-size: .5em;
+					color: #fff;
+					position:absolute; 
+					left: 125px;
+					top: 85px;
+					text-shadow: 0px 2px 3px #8C8D8C;
+					}
+				
+				.Starbucks {
+					font-size: 1.8em;
+					color: #00704a;
+					font-weight: 700;
+					text-shadow: 0px 2px 3px #8C8D8C;
+				}
+					
+				.Spotify {
+					font-size: 2.6em;
+					color: #1ed760;
+					font-weight: 700;
+					position: absolute; 
+					top: 40px;
+					text-shadow: 0px 2px 3px #8C8D8C;
+					}
+			
+			.coffeecup {
+				width: 30%;
+				position: absolute;
+				top: 105px;
+				left: 190px;
+				animation-name: dancecup, moveUp;
+				animation-duration: 1s, 10s;
+				animation-delay: 2s;
+				animation-iteration-count: infinite,1;
+				animation-fill-mode: none, both; 
+				animation-direction:alternate;
+				animation-timing-function: linear;
+				}
+				
+				@keyframes dancecup {
+					0% {
+						transform: rotate(20deg);
+						}
+					100% {
+						transform: rotate(-30deg);
+						}
+					}
+					
+				@keyframes moveUp {
+					0% {
+						top: 900px;
+						}
+					100% {
+						bottom: 150px;
+						}
+				}
+				
+				
+				
+        </style>
+    </head>
+    <body>
+        <a href="#" id="medium-rectangle" />
+            <!--markup for banner goes below-->
+            
+            <div class="volume_clearfix">
+            <div class="volume left"><img src="images/longervolume.png" class="volume" alt="audio lines" /></div>
+            <div class="volume right"><img src="images/audio lines with glow.png" class="volume" alt="audio lines" /></div>
+            <div class="text take">Take the</div>
+            <div class="text sound">Sound of Starbucks</div>
+            <div class="text you">with <strong>You!</strong></div> 
+             <div class="banner">
+            	<div class="text intro">Introducing</div>
+                <div class="text Starbucks">STARBUCKS</div>
+                <div class="text Spotify">SPOTIFY</div>
+                <div class="text sync">SYNC NOW ></div>
+            </div>
+            
+            <div class="cup"><img src="images/cup.png" class="coffeecup" alt="starbucks cup" /></div>
+            
+           
+            
+            
+            </div>
+        
+            <!--markup for banner goes above-->
+        
+    </body>
+</html>

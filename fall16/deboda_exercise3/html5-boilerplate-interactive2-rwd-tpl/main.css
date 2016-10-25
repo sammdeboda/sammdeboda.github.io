@@ -74,6 +74,7 @@ textarea {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  border: solid #000000 1px;
 }
 
 .col-xs-1 {
@@ -947,32 +948,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.logo {
-	width: 15%;
-	margin: 1.5em 2em;
-	}
 
-@media (max-width: 768px) {
-	.logo {
-		width: 25%;
-		margin: 1em;
-		}
-	
-	}
 
-.header {
-	background: #515151;
-	height: 405px;
-	}
 
-@media (max-width: 768px) {
-	.header {
-		height: 20%;
-	}
 
-.volume {
-	width: 15%;
-	}
+
+
+
+
+
 
 
 

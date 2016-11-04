@@ -5,12 +5,33 @@
 	width: 20%;
 	float: left;
 	}
+	
+.hide {
+		display: none;
+		}	
+		
+.volume {
+			margin-bottom: 1em;
+			}
+.headlines {
+		margin: 1em;
+		}
+		
+h1 {
+	font-size: 1.3em;
+	}
+	
+h2 {
+	font-size: 1em;
+	margin-bottom: 0;
+	}
+		
 .navbar {
 		font-family: "Montserrat", sans-serif;
 		font-weight: 400;
 		color: #fff;
 		font-size: .7em;
-}
+	}
 	
 .parallelogram {
   display: inline-block;
@@ -19,8 +40,8 @@
   box-sizing: border-box;
   float: right;
   width: 44px;
-  height: 60px;
   margin-top: -5px;
+  padding: 30px 3px 15px 3px;
   border: none;
   text-align: center;
   -o-text-overflow: clip;
@@ -53,12 +74,14 @@ h2 {
 	background-size: 20px;
 	background-position: 0;
 	background-repeat: no-repeat;
+	padding-left: 1.5em;
 	}
 #password {
 	background-image: url(../img/password.png);
 	background-size: 20px; 
 	background-position: 0;
 	background-repeat: no-repeat;
+	padding-left: 1.5em;
 	}
 	
 .form-box {
@@ -66,50 +89,84 @@ h2 {
 	text-align: center;
 	margin: 0;
 	}
-.headlines {
-	margin: 50px 30px 0px;
+	
+.signin {
+	height: 40.688px; 
+	width: 224.917px;
+	border-radius: 7px;
+	border: 0; 
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.30); 
+	font-family: "montserrat", sans-serif;
 	}
-/*big and medium screen sizes*/ 
 
+button {
+		background-color: #1eb16b;
+		font-family: "montserrat", sans-serif; 
+		color: #fff;
+		border: none;
+		padding: 10px;
+		width: 150px;
+		height: 50px;
+		border-radius: 7px;
+		box-shadow: inset 0 0 20px rgba(0,0,0,0.30);
+		}
+	
+p {
+	font-family: "montserrat", sans-serif;
+	text-align: center;
+	font-size: .8em;
+	}
+	
+.socialmedia {
+	text-align: center;
+	}
+	
+	
+.socials {
+	width: 25px;
+	}
+	
+	
+/*big and medium screen sizes*/ 
 @media (min-width:768px) {
 	.volume {
 		width: 20%;
 		margin-top: 5em;
 		}
-	.hide, .parallelogram {
+	.hide, .parallelogram{
 		display: none;
 	}
-}
+	
+	.col-md-6 {
+		width: 100%;
+		}
 
+}
+	
 @media (min-width: 990px) {
 	.container2 {
 		background-color: #fff;
+		border-radius: 72px;
+		box-shadow: 3px 4px 7px rgba(0,0,0,0.30);
+		padding: 20px;
 		position: absolute;
-		width: 50%;
 		top: 100px;
+		width: 50%;
 		}
 	}
 
+@media (min-width: 375px) {
+	.container2 {
+		background-color: #fff;
+		border-radius: 25px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		box-shadow: 3px 4px 7px rgba(0,0,0,0.30);
+		}
+	
+	}
+	
 
-/*small screen*/ 	
-	@media (max-width: 760px) {
-	.hide {
-		display: none;
-		}	
-		
-	.volume {
-			margin-bottom: 1em;
-			}
-	.headlines {
-		margin: 1em;
-		}
-		
-	h1 {
-		font-size: 1.4em;
-		}
-	h2 {
-		font-size: 1em;
-		}
 
-}	
+
 

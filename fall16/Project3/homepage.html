@@ -18,14 +18,16 @@
     <body>
 
        
-
-        <div class="container">
-        	<header class="header">
-        		<img src="img/logo with drop shadow.png" class="logo" alt="Starbucks | Spotify logo" />
-                <div class="parallelogram navbar">F.A.Q.</div>
-                <div class="parallelogram navbar">Stores</div>
-                <div class="parallelogram navbar">Sync Now</div>
-                	<div class="row">
+		<header class="header">
+        	<div class="container">
+            	<a href="landingpage.html">
+                	<img src="img/logo with drop shadow.png" class="logo" alt="Starbucks | Spotify logo" />
+                </a>
+              	<a href="faq.html"><div class="parallelogram navbar">F.A.Q.</div></a>
+                <a href="stores.html"><div class="parallelogram navbar">Stores</div></a>
+                <a href="homepage.html"><div class="parallelogram navbar">Sync Now</div></a>
+<!--
+                    <div class="row">
                     <img src="img/audio lines.png" class="volume" alt="sound lines" />
                     <img src="img/audio lines.png" class="volume" alt="sound lines" />
                     <img src="img/audio lines.png" class="volume" alt="sound lines" />
@@ -34,8 +36,13 @@
                     <img src="img/audio lines.png" class="volume hide" alt="sound lines" />
                     <img src="img/audio lines.png" class="volume hide" alt="sound lines" />
                     </div>
-                  
-        	</header>
+                    
+                   -->
+           </div>
+        </header>
+            
+        <div class="container">
+        	
            
             <div class="container2 col-lg-2 col-md-6 push-lg-3">	
             	<div class="row headlines">
@@ -50,6 +57,14 @@
                     	<p><input type="email" class="signin" id="email" placeholder="E-Mail" /></p>
                     	<p><input type="password" class="signin" id="password" placeholder="Password" /></p>
                		</form>
+                    <a href="https://www.spotify.com/us/"><button type="submit" value="Sync Now!">Sync Now</button></a>
+                </div>
+                <hr>
+                <p>Or sign in with one of the following</p>
+                <div class="socialmedia">
+                <a href="https://www.facebook.com/"><img src="img/fb.png" alt="Facebook" class="socials"/></a>
+                <a href="https://plus.google.com/"><img src="img/google.png" alt="Google+" class="socials"/></a>
+                <a href="https://twitter.com"><img src="img/twitter.png" alt="Twitter" class="socials"/></a>
                 </div>
             	</div>
             
@@ -57,9 +72,12 @@
            
             </div>
        </div>
+       
+       
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+        <div class="footer"><footer>© 2016 Starbucks Corporation. All rights reserved.</footer></div>
     </body>
 </html>

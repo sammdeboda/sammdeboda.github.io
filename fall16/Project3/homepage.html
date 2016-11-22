@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Sync Now! | Starbucks Music</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,45 +19,35 @@
 
        
 		<header class="header">
-        	<div class="container">
-            	<a href="landingpage.html">
-                	<img src="img/logo with drop shadow.png" class="logo" alt="Starbucks | Spotify logo" />
-                </a>
-              	<a href="faq.html"><div class="parallelogram navbar">F.A.Q.</div></a>
-                <a href="stores.html"><div class="parallelogram navbar">Stores</div></a>
-                <a href="homepage.html"><div class="parallelogram navbar">Sync Now</div></a>
-<!--
-                    <div class="row">
-                    <img src="img/audio lines.png" class="volume" alt="sound lines" />
-                    <img src="img/audio lines.png" class="volume" alt="sound lines" />
-                    <img src="img/audio lines.png" class="volume" alt="sound lines" />
-                    <img src="img/audio lines.png" class="volume" alt="sound lines" />
-                    <img src="img/audio lines.png" class="volume" alt="sound lines" />
-                    <img src="img/audio lines.png" class="volume hide" alt="sound lines" />
-                    <img src="img/audio lines.png" class="volume hide" alt="sound lines" />
-                    </div>
-                    
-                   -->
-           </div>
-        </header>
-            
-        <div class="container">
+			<nav class="container navbar">
+    		<a href="landingpage.html" class=""><img src="img/logo with drop shadow.png" class="logo" alt="Starbucks | Spotify logo" /></a>
+    			<ul class="side-nav">
+        			<li><div class="shape" id="number1"><a href="faq.html" class="">F.A.Q.</a></div></li>
+        			<li><a href="locations.html" class="shape" id="number2"><div class="parallelogram2">Stores</div></a></li>
+        			<li><a href="homepage.html" class="shape" id="number3"><div class="parallelogram3">Sync Now</div></a></li>
+        		</ul>
+    		</nav>
+	    </header>
+        
+        <div class="fullpage">   
+        <div class="container container2">
         	
            
-            <div class="container2 col-lg-2 col-md-6 push-lg-3">	
+            <div class="row">	
+            	<div class="col-xs-12 col-md-9 push-md-3">
             	<div class="row headlines">
                	 	<div class="text-center">
-                    	<h1>Sync Spotify with your</h1><h1>Starbucks App Today!</h1>
+                    	<h1 class="hl1">Sync Spotify with your</h1><h1 class="h1-2">Starbucks App Today!</h1>
                 	</div>
 					<div class="text-center">
-                		<h2>Sign in with your e-mail</h2>
+                		<h2 class="sign in">Sign in with your e-mail</h2>
                 	</div>
                 <div class="row form-box">
             		<form>
                     	<p><input type="email" class="signin" id="email" placeholder="E-Mail" /></p>
                     	<p><input type="password" class="signin" id="password" placeholder="Password" /></p>
                		</form>
-                    <a href="https://www.spotify.com/us/"><button type="submit" value="Sync Now!">Sync Now</button></a>
+                    <a href="sync-bridgepage.html"><button type="submit" value="Sync Now!">Sync Now</button></a>
                 </div>
                 <hr>
                 <p>Or sign in with one of the following</p>
@@ -66,18 +56,20 @@
                 <a href="https://plus.google.com/"><img src="img/google.png" alt="Google+" class="socials"/></a>
                 <a href="https://twitter.com"><img src="img/twitter.png" alt="Twitter" class="socials"/></a>
                 </div>
+                </div>
             	</div>
             
            
            
             </div>
+            </div>
+     
        </div>
-       
        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
-        <div class="footer"><footer>© 2016 Starbucks Corporation. All rights reserved.</footer></div>
+        <footer class="footer">© 2016 Starbucks Corporation. All rights reserved.</footer>
     </body>
 </html>

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:#4A4A4A;
+  height: 0.5px;
+	}	
+
+.icon {
+	width: 20px;
+	
+	}
+	
+form {
+	display: inline; 	
+	}
+	
+
+#stores {
+	font-family: "montserrat", sans-serif;
+	font-size: 1em;
+	height: 40.688px; 
+	width: 224.917px;
+	border-radius: 7px;
+	border: 0; 
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.30); 
+	background-image: url(../img/icon%20location.png);
+	background-repeat: no-repeat;
+	background-position: 7px 7px;
+	background-size: 20px;
+	padding-left: 30px;
+	}
+
+#find-current {
+	font-family: "montserrat", sans-serif;
+	font-size: 1em;
+	height: 40.688px; 
+	width: 224.917px;
+	border-radius: 7px;
+	border: 0; 
+	box-shadow: inset 0 0 20px rgba(0,0,0,0.30); 
+	background-image:url(../img/current%20.png);
+	background-repeat: no-repeat;
+	background-position: 7px 7px;
+	background-size: 20px;
+	padding-left: 30px;
+	}
+	
+	
+	
+@media screen and (max-width: 767px){
+	iframe {
+		width: 100%;
+		height: 100%;
+		}
+	
+	p {
+		display: inline-block;
+		
+		}
+	}
+@media screen and (width: 768px){
+	iframe {
+		width: 100%;
+		height: 100%;
+		}
+	
+	}
+
+@media screen and (width: 768px){
+	input {
+		display: inline;
+		
+		}
+	.fullpage {
+		height: 1000px;
+		
+		}
+	
+	
+	}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width: 992px) {
+	.fullpage {
+	height: 400px;
+	
+	}
+}
+
+@media screen and (max-width: 767px) { 
+	.fullpage {
+		height: 450px;
+	
+		}
+
+}
+
+@media screen and (min-width: 768px) { 
+	.fullpage {
+		height: 800px;
+	
+		}
+
+}
+
+
+h1, .thank {
+	font-size: 2em;
+	text-align: left;
+	margin-top: 20px;
+	}
+	
+
+.link-to, .click {
+	color: #000;
+	text-align: left;
+	
+	}
+	
+.click {
+	margin-bottom: 40px;
+	}

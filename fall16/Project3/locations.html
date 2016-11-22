@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Locations | Starbucks Music</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/locations.css">
+       	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Shrikhand" rel="stylesheet">
+        
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+
+<body>
+<div class="fullpage">
+<header class="header">
+	<nav class="container navbar">
+    	<a href="landingpage.html" class=""><img src="img/logo with drop shadow.png" class="logo" alt="Starbucks | Spotify logo" /></a>
+    	<ul class="side-nav">
+        <li><div class="navbox"><a href="faq.html" class="shape" id="number1">F.A.Q.</a></div></li>
+        <li><div class="navbox"><a href="locations.html" class="shape" id="number2">Stores</a></div></li>
+        <li><div class="navbox"><a href="homepage.html" class="shape" id="number3">Sync Now</a></div></li>
+        </ul>
+    </nav>
+</header>
+    
+
+ 	<div class="container container2">
+ 		<div class="row">
+        	<div class="col-xs-12 col-md-9 push-md-3">
+            
+            	<div class="row headlines">
+                	<h1>Tune In with one these Participating Stores</h1>
+                </div>
+                
+                	<div class="row intro">
+                    	<div class="col-xs-12 col-md-12 col-lg-12">
+                    		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d423283.32388672617!2d-118.69192397947494!3d34.02075039567336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1479275652585" width="600" height="450" frameborder="0"  ></iframe>
+                    	</div>
+                	</div>
+                	<hr>
+                    <div class="row location-services">
+                      
+                    	<form class="locations">
+                        	<input type="text" placeholder="Enter your city, state, or zip" id="stores" name="stores"> 
+                    	</form>
+                        or
+                        <form class="current">
+                        	<input type="type" placeholder="Find a location near me" id="find-current" name="stores">
+                        </form>
+                       <h2>CALIFORNIA</h2>
+                      
+                            
+                            <div class="address col-xs-6 col-med-3 col-lg-3">
+                       			<p>789 Silverlake Blvd., Los Angeles, CA, 90062-0065, (323) 654-0469</p>
+                       		</div>
+                            
+                            <div class="address col-xs-6 col-med-3 col-lg-3">
+                       			<p>2999 Overland Ave., Los Angeles, CA 90064-4243, (310)896-3459</p>
+                       		</div>
+                            
+                            <div class="address col-xs-6 col-med-3 col-lg-3">
+                       			<p>587 Figueroa St., Los Angeles, CA 90064-4243, (323)999-3099</p>
+                       		</div>
+                            
+                            <div class="address col-xs-6 col-med-3 col-lg-3">
+                       			<p>120 S. Los Angeles Street, Los Angeles, CA 90012, (213)687-9849</p>
+                       		</div>
+                            
+                            <div class="address col-xs-6 col-med-3 col-lg-3">
+                            	<p>217 N. Hill Street, Los Angeles, CA 90012, (213)625-0025</p>
+                            </div>
+                            
+                             <div class="address col-xs-6 col-med-3 col-lg-3">
+                             	<p>639 N Broadway Los Angeles, CA 90012, (213)567-4857</p>
+                             </div>
+                             
+                             <div class="address col-xs-6 col-med-3 col-lg-3">
+                             	<p>3450 Wilshire Blvd. Los Angeles, CA 90010, (213)896-4839</p>
+                             </div>
+                             
+                             <div class="address col-xs-6 col-med-3 col-lg-3">
+                             	<p>2560 Glendale Blvd. Los Angeles, CA 90039, (818)467-9087</p>
+                             </div>
+                             
+                             <div class="address col-xs-6 col-med-3 col-lg-3">
+                             	<p>3584 S. Figueroa St. #1B Los Angeles, CA 90007, (213)749-9887</p>
+                             </div>
+                             
+                             <div class="address col-xs-6 col-med-3 col-lg-3">
+                             	<p>206 North Larchmont Los Angeles, CA 90004, (323)678-9083</p>
+                             </div>
+                    </div>
+            </div>
+        </div>
+ 	</div>
+</div>
+<footer class="footer">© 2016 Starbucks Corporation. All rights reserved.</footer>
+
+
+<script type="text/javascript">
+
+function initialize() {
+
+var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+// Resize stuff...
+google.maps.event.addDomListener(window, "resize", function() {
+   var center = map.getCenter();
+   google.maps.event.trigger(map, "resize");
+   map.setCenter(center); 
+});
+
+</script>
+
+
+</body>
+</html>

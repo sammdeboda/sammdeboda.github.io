@@ -1,5 +1,98 @@
 @charset "UTF-8";
 /* CSS Document */
+
 .introimg {
 	width: 100%;
+	}
+	
+.discover {
+	width: 70%;
+	margin: auto;
+	}
+
+.above {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	}
+	
+
+.introducing {
+	padding-bottom: 0px;
+	padding-top: 10px;
+	}
+	
+.starbucks {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	}
+	
+	
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#4A4A4A;
+  height: .5px;
+	}	
+	
+.artist {
+	box-shadow: 3px 4px 7px rgba(0,0,0,0.30);
+	}
+	
+@media screen and (max-width: 767px) {
+	.discover {
+		display: block;
+	}
+	
+	.main-idea {
+		text-align: center;
+		}
+	
+	.artist-description {
+		padding: 15px;
+		}
+		
+
+	
+	.artist {
+		width: 95%;
+		}
+		
+	.apps {
+		width: 35%;
+		margin: auto; 
+		display: inline-block;
+		}
+
+	}
+
+@media screen and (min-width: 768px) {
+	/*.artist {
+		width: 60%;
+		}*/
+		
+	.apps {
+		width: 30%;
+		display:inherit; 
+		margin: 5px;
+		
+		}
+	.discover {
+		width: 100%;
+		
+		}
+
+	.download {
+		width: 85%;
+		}
+	
+	}
+	
+@media screen and (max-width: 767px) {
+	.artist {
+		width: 70%;
+		}
+	
 	}

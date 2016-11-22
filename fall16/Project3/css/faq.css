@@ -1,3 +1,59 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.faq {
+	text-align: center;
+	font-size: 1em;
+	margin: 0;
+	}
+
+.q {
+	font-family: "montserrat", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 5px 0 5px 40px;
+	position: relative;
+	}
+.q + p {
+	display: none;
+}
+.help {
+	background: #fff;
+	font-family: "montserrat", sans-serif;
+	font-weight: bold;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	}
+
+.plus {
+	border: 1px solid #1bb06b;
+	color: #1bb06b;
+	font-family: "montserrat", sans-serif; 
+	font-size: 1.5em;
+	line-height: 1;
+	font-weight: bold;
+	background-color: #fff;
+	text-align: left;
+	position: absolute;
+	padding: 0 5px;
+	left: 0;
+	}
+	
+
+li {
+	font-weight: normal;
+	font-size: 1em;
+	}
+	
+.icon {
+	width: 30px;
+	}
+	
+.more {
+	max-width: 30px;
+	margin-right: 10px;
+	}

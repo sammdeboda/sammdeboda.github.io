@@ -1054,13 +1054,15 @@ h4 {
 	h1 {
 		font-size: 2em;
 		}
-	
+	.shape {
+		position: relative;
+	}
 	#number1 { 
 	position: absolute; 
 	top: 0px;
 	width: 50px;
 	right: 140px;
-	height: 100px;
+	height: 80px;
 	background: #1bb06b;
 	padding: 0px;
 	padding-top: 40px;
@@ -1074,7 +1076,7 @@ h4 {
 	top: 0px;
 	width: 50px;
 	right: 80px;
-	height: 100px;
+	height: 80px;
 	background: #1bb06b;
 	padding: 0px;
 	padding-top: 40px;
@@ -1087,13 +1089,25 @@ h4 {
 	top: 0px;
 	width: 50px;
 	right: 20px;
-	height: 100px;
+	height: 80px;
 	background: #1bb06b;
 	padding: 0px;
 	padding-top: 40px;
 	text-align: center;
 	font-size: 1em;
 	}	
+	
+	.shape:after {
+		content: ' ';
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		border-bottom: 20px solid transparent;
+		border-top: 0px solid transparent;
+		border-left: 0px solid transparent;
+		border-right: 50px solid #1bb06b;
+	}
 	
 }
 @media screen and (min-width: 768px) {
@@ -1139,6 +1153,18 @@ h4 {
 	text-align: center;
 	font-size: 2em;
 	}	
+	
+	.shape:after {
+		content: ' ';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -1px;
+		border-bottom: 0px solid transparent;
+		border-top: 66px solid transparent;
+		border-left: 0px solid transparent;
+		border-right: 33px solid white;
+	}
 		
 }
 
@@ -1216,12 +1242,13 @@ a {
 	text-decoration: none;
 	}
 	
-	
+	.navbar {
+		position: relative;
+	}
 	
 #number1 {
 	position: absolute;
 	top: 350px;
-	left: 80px;
 	width: 200px; 
 	height: 55px; 
 	transform: rotate(-20deg) translate(50px);
@@ -1234,7 +1261,6 @@ a {
 #number2 {
 	position: absolute; 
 	top: 450px;
-	left: 80px;
 	width: 200px; 
 	height: 55px;
 	background: #1bb06b;
@@ -1247,7 +1273,6 @@ a {
 #number3 {
 	position: absolute; 
 	top: 550px;
-	left: 80px;
 	width: 200px; 
 	height: 55px;
 	background: #1bb06b;
@@ -1257,25 +1282,30 @@ a {
 	font-size: 2em;
 	}
 	
+	.shape:after {
+		content: ' ';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -1px;
+		border-bottom: 0px solid transparent;
+		border-top: 66px solid transparent;
+		border-left: 0px solid transparent;
+		border-right: 33px solid white;
+	}
 	
-.shape::before, .shape::after {
+.shape:before {
 	content: '';
 	display: block; 
 	width: 0; 
 	height: 0;
 	position: absolute; 
-	bottom: -20px;
+	top: 100%;
 	left: 0;
-	z-index: -1; 
-	border: 10px solid;
-	border-right: -100px;
-	border-color: #036A2D transparent transparent transparent;
-	}
-
-.shape:after {
-	border-right: 20px solid transparent;
-	right: 0;
-	z-index: -1;
+	border-bottom: 12px solid transparent;
+	border-top: 0px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 16.7px solid #0AE676 ;
 	}
 
 }

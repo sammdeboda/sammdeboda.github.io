@@ -14,9 +14,17 @@
 	padding: 5px 0 5px 40px;
 	position: relative;
 	}
-.q + p {
+	
+.q + p, .answers {
 	display: none;
 }
+
+.answers {
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-size: .8em;
+	margin-left: 40px;
+	}
 .help {
 	background: #fff;
 	font-family: "montserrat", sans-serif;

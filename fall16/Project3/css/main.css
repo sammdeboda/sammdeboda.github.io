@@ -965,13 +965,14 @@ a, ul {
 	list-style-type: none;
 	}
 	
-	
+.shape:hover {
+	text-decoration: underline;
+	transform: translateX(10deg);
+	}	
 @media screen and (min-width: 992px) {
 	.container2 {
 		border-radius: 25px;
 		box-shadow: 3px 4px 7px rgba(0,0,0,0.30);
-		outline: solid #8ADF98 1.5px;
-		outline-offset: 30px;
 		
 	}
 	
@@ -1106,7 +1107,7 @@ h4 {
 	left: -80px;
 	width: 170px; 
 	height: 65px; 
-	transform: skew(-30deg) rotate(-20deg) translate(50px);
+	transform: rotate(-20deg) translate(50px);
 	background: #1bb06b;
 	padding: 15px;
 	text-align: center;
@@ -1120,7 +1121,7 @@ h4 {
 	width: 170px; 
 	height: 65px;
 	background: #1bb06b;
-	transform: skew(-30deg) rotate(-20deg) translate(50px);
+	transform: rotate(-20deg) translate(50px);
 	padding: 15px;
 	text-align: center;
 	font-size: 2em;
@@ -1133,7 +1134,7 @@ h4 {
 	width: 170px; 
 	height: 65px;
 	background: #1bb06b;
-	transform: skew(-30deg) rotate(-20deg) translate(50px);
+	transform:rotate(-20deg) translate(50px);
 	padding: 15px;
 	text-align: center;
 	font-size: 2em;
@@ -1158,13 +1159,13 @@ h2 {
 	}
 	
 .logo {
-	width: 15%;
+	width: 20%;
 	margin: 1.5em 2em;
 	}
 
 @media screen and (max-width: 767px) {
 	.logo {
-		width: 25%;
+		width: 30%;
 		margin: 1em;
 		}
 	
@@ -1176,7 +1177,7 @@ h2 {
 	background-position: center center;
 	background-repeat: repeat-x;
 	background-size: 150px;
-	height: 300px;
+	height: 200px;
 	}
 
 @media screen and (max-width: 768px) {
@@ -1222,8 +1223,8 @@ a {
 	top: 350px;
 	left: 80px;
 	width: 200px; 
-	height: 65px; 
-	transform: skew(-30deg) rotate(-20deg) translate(50px);
+	height: 55px; 
+	transform: rotate(-20deg) translate(50px);
 	background: #1bb06b;
 	padding: 15px;
 	text-align: center;
@@ -1235,9 +1236,9 @@ a {
 	top: 450px;
 	left: 80px;
 	width: 200px; 
-	height: 65px;
+	height: 55px;
 	background: #1bb06b;
-	transform: skew(-30deg) rotate(-20deg) translate(50px);
+	transform: rotate(-20deg) translate(50px);
 	padding: 15px;
 	text-align: center;
 	font-size: 2em;
@@ -1248,9 +1249,9 @@ a {
 	top: 550px;
 	left: 80px;
 	width: 200px; 
-	height: 65px;
+	height: 55px;
 	background: #1bb06b;
-	transform: skew(-30deg) rotate(-20deg) translate(50px);
+	transform: rotate(-20deg) translate(50px);
 	padding: 15px;
 	text-align: center;
 	font-size: 2em;
@@ -1276,6 +1277,7 @@ a {
 	right: 0;
 	z-index: -1;
 	}
+
 }
 
 

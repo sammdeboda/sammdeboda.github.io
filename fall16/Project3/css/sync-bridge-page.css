@@ -1,27 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 @media screen and (min-width: 992px) {
-	.fullpage {
-	height: 400px;
 	
-	}
+	.container2 {
+		height: 600px
+		}
 }
 
-@media screen and (max-width: 767px) { 
+/*@media screen and (max-width: 767px) { 
 	.fullpage {
-		height: 450px;
+		height: 438px;
 	
 		}
 
-}
+}*/
 
-@media screen and (min-width: 768px) { 
+/*@media screen and (min-width: 768px) { 
 	.fullpage {
 		height: 800px;
 	
 		}
 
-}
+}*/
 
 
 h1, .thank {
@@ -35,6 +35,9 @@ h1, .thank {
 	color: #000;
 	text-align: left;
 	
+	}
+.link-to {
+	color: #009211;
 	}
 	
 .click {
